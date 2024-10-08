@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TaxApp</string>
+    <string name="total_per_person">Total Per Person</string>
+    <string name="enter_bill">Enter Bill</string>
 </resources>
