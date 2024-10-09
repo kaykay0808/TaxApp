@@ -2,4 +2,7 @@
     <string name="app_name">TaxApp</string>
     <string name="total_per_person">Total Per Person</string>
     <string name="enter_bill">Enter Bill</string>
+    <string name="income_after_tax">Income After Tax</string>
+    <string name="input_field_label">Enter Salary</string>
+    <string name="close_icon">Close Icon</string>
 </resources>
