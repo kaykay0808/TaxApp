@@ -39,4 +39,6 @@ fun TaxForm(
             keyboardController?.hide()
         }
     )
+    // Tax Info Section
+    TaxInfo(viewState = viewState)
 }
