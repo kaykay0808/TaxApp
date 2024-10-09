@@ -23,7 +23,7 @@ fun TaxForm(
             .isNotEmpty()
     }
     val keyboardController = LocalSoftwareKeyboardController.current
-    TaxHeader()
+    TaxHeader(incomeAfterTax = viewState.incomeAfterTax)
     // Salary Input Field
     SalaryInputField(
         inputValueState = viewState.netSalaryString,
@@ -41,4 +41,9 @@ fun TaxForm(
     )
     // Tax Info Section
     TaxInfo(viewState = viewState)
+    TaxSlider(
+        // viewModel = taxViewModel,
+        valueChanged = { newVal -> taxViewModel.onSliderValueChange(newVal) },
+        sliderPositionState = viewState.sliderValue,
+    )
 }

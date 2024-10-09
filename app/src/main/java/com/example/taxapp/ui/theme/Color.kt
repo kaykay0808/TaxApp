@@ -1,12 +1,10 @@
 package com.example.taxapp.ui.theme
 
-
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.ColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Color.Companion.Black
-import androidx.compose.ui.graphics.Color.Companion.Green
 import androidx.compose.ui.graphics.Color.Companion.LightGray
 
 val Purple80 = Color(0xFFD0BCFF)
@@ -19,7 +17,7 @@ val Pink40 = Color(0xFF7D5260)
 
 val ColorScheme.topHeaderBackground
     @Composable
-    get() = if (isSystemInDarkTheme()) Black else Green
+    get() = if (isSystemInDarkTheme()) Black else Purple80
 
 val ColorScheme.topHeaderTextColor: Color
     @Composable
